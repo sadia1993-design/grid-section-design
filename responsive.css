@@ -1,0 +1,40 @@
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .grid-wrap {
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+}
+ 
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+    .grid-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    .grid-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    .grid-wrap {
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+ 
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    .grid-wrap {
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 30px;
+    }
+}
